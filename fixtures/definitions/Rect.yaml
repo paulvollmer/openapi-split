@@ -1,0 +1,15 @@
+Rect:
+  type: "object"
+  properties:
+    x:
+      type: "number"
+      description: "x position of the rectangle"
+    y:
+      type: "number"
+      description: "y position of the rectangle"
+    width:
+      type: "number"
+      description: "width of the rectangle"
+    height:
+      type: "number"
+      description: "height of the rectangle"

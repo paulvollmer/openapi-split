@@ -1,0 +1,15 @@
+Line:
+  type: "object"
+  properties:
+    x1:
+      type: "number"
+      description: "x position of line begin"
+    y1:
+      type: "number"
+      description: "y position of line begin"
+    x2:
+      type: "number"
+      description: "x position of line end"
+    y2:
+      type: "number"
+      description: "y position of line end"

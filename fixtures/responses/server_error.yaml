@@ -1,0 +1,9 @@
+ServerError:
+  description: "Internal Server Error"
+  schema:
+    type: "object"
+    properties:
+      error:
+        type: "string"
+      description:
+        type: "string"

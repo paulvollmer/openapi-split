@@ -1,0 +1,7 @@
+NotFound:
+  description: "Not found"
+  schema:
+    type: "object"
+    properties:
+      error:
+        type: "string"

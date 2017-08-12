@@ -1,0 +1,16 @@
+swagger: "2.0"
+info:
+  title: "API Spec"
+  version: "1.0.0"
+host: "localhost:8000"
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+tags:
+  - name: "circle"
+  - name: "line"
+  - name: "rect"
+schemes:
+  - "http"
+  - "https"

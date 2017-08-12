@@ -1,0 +1,4 @@
+/rect:
+  get:
+    description: "rectangle get endpoint"
+    
