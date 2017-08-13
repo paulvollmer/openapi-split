@@ -17,4 +17,7 @@ The philosophy behind the tool is to KISS (keep it stupid simple) at the usage.
 
 ```
 openapi-split > spec.yaml
+
+# or write a json file use the -f flag
+openapi-split -f json > spec.json
 ```
