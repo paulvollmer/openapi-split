@@ -1,4 +1,4 @@
-# OpenAPI Split
+# OpenAPI Split [![Build Status](https://travis-ci.org/paulvollmer/openapi-split.svg?branch=master)](https://travis-ci.org/paulvollmer/openapi-split)
 
 `openapi-split` is a simple commandline tool to organize an openapi (swagger) specification across multiple files.
 the tool read yaml files from different directories like `paths`, `definitions` and `responses` to build a single openapi spec file.
