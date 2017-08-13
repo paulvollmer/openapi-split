@@ -1,10 +1,10 @@
 Circle:
   type: "object"
   properties:
-    x:
+    xpos:
       type: "number"
       description: "x position of the circle"
-    y:
+    ypos:
       type: "number"
       description: "y position of the circle"
     diameter:
