@@ -1,10 +1,10 @@
 Rect:
   type: "object"
   properties:
-    x:
+    xpos:
       type: "number"
       description: "x position of the rectangle"
-    y:
+    ypos:
       type: "number"
       description: "y position of the rectangle"
     width:
