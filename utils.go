@@ -30,7 +30,6 @@ func GetYamlFilenames(dirname string) ([]string, error) {
 func concatYamlFiles(files []string) ([]string, error) {
 	d := make([]string, 0)
 	for _, v := range files {
-		fmt.Println("read file", v)
 		content, err := readLines(v, "  ")
 		if err != nil {
 			return d, err
@@ -38,6 +37,23 @@ func concatYamlFiles(files []string) ([]string, error) {
 		d = append(d, content...)
 	}
 	return d, nil
+}
+
+func concatYamlFilesFromDir(dirname string) []string {
+	data := make([]string, 0)
+	files, err := GetYamlFilenames(dirname)
+	if err == nil {
+		data, err = concatYamlFiles(files)
+		if err != nil {
+			printError(err)
+		}
+	}
+	return data
+}
+
+func printError(err error) {
+	fmt.Println("Error", err)
+	os.Exit(1)
 }
 
 func readLines(path, leftPad string) ([]string, error) {
