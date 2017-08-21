@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	version = "0.1.1"
+	version = "0.1.2"
 	repoURL = "https://github.com/paulvollmer/openapi-split"
 )
 
