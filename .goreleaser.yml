@@ -1,0 +1,20 @@
+# Build customization
+builds:
+  - binary: openapi-split
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - 386
+
+# Archive customization
+archive:
+  format: tar.gz
+  replacements:
+    amd64: 64bit
+    386: 32bit
+    darwin: macOS
+  files:
+    - LICENSE
